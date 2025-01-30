@@ -9,3 +9,15 @@ export type ListItem = {
   location: string;
   icon?: ReactNode;
 };
+
+export type Product = {
+  _id: string;
+  name: string;
+  description: string;
+  price: number;
+  image: string;
+  category: string;
+  rating: number;
+  sellerEmail: string;
+  stock: number;
+};

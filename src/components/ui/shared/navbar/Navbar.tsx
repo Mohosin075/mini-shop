@@ -18,9 +18,9 @@ const Navbar = () => {
           {ListItem.map((list, i) => (
             <li
               key={i}
-              className={`rounded bg-gradient-to-r hover:from-[#2B59FF] hover:to-[#BB2BFF]  hover:text-white ${
+              className={`rounded bg-gradient-to-r hover:from-[#9268df] hover:to-[#FFC947]  hover:text-white active:from-[#5c37a0] active:to-[#c9854e]  ${
                 pathname === `/${list?.location}`
-                  ? "from-[#2B59FF] to-[#BB2BFF] text-white"
+                  ? "from-[#5c37a0] to-[#c9854e] text-white"
                   : ""
               }`}
             >

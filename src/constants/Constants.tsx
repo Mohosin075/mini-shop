@@ -4,6 +4,10 @@ export const ListItem = [
     location: "/",
   },
   {
+    Label: "Products",
+    location: "products",
+  },
+  {
     Label: "About",
     location: "about",
   },
